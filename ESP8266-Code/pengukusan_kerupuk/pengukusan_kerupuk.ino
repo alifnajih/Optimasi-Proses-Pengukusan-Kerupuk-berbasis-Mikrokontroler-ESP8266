@@ -1,6 +1,6 @@
 //*************************************************************************//
 //           OPTIMASI PROSES PENGUKUSAN KERUPUK dengan SISTEM              //
-//            BERBASIS MICROKONTROLER DI PABRIK KERUPUK PLOSO              //
+//            BERBASIS MICROKONTROLER DI PABRIK KERUPUK                    //
 //*************************************************************************//
 
 #include <OneWire.h>
@@ -10,11 +10,11 @@
 #include <DallasTemperature.h>
 #include <ESP8266HTTPClient.h>
 //*************************************************************************//
-const char *wifi_ssid = "Alif Najih";              // nama wifi
+const char *wifi_ssid = "Aku";              // nama wifi
 const char *wifi_password = "123456789";  // sandi wifi
 //*************************************************************************//
-const char *IP_HOST = "192.168.100.12";  // IP Address server
-String PROJECT_API_KEY = "dhani"; 
+const char *IP_HOST = ".............";  // IP Address server
+String PROJECT_API_KEY = "........"; 
 //*************************************************************************//
 unsigned long lastMillis = 0;
 //*************************************************************************//
@@ -261,7 +261,7 @@ void printWelcome() {
   lcd.setCursor(0, 0);
   lcd.print("   By :    ");
   lcd.setCursor(0, 1);
-  lcd.print(" DHANI SETIAWAN ");
+  lcd.print(" Alif  ");
   delay(1500);
   lcd.clear();
   lcd.setCursor(0, 0);
@@ -271,4 +271,5 @@ void printWelcome() {
   lcd.print("     ......     ");
   delay(1500);
 }
+
 //*************************************************************************//
