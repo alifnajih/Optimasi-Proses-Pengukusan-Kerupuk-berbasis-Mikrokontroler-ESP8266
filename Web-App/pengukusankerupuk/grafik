@@ -1,0 +1,10 @@
+<?php
+$konek = mysqli_connect("localhost", "", "grafiksensor");
+
+
+
+
+$tanggal= mysqli_query(konek, "SELECT tanggal FROM tb_sensor ORDER BY ID ASC")
+
+$
+?>
